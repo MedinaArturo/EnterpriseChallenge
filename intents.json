@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "saudacao",
+         "patterns": ["Olá", "Oi", "Tudo bem?", "Tem alguem ai?", "Pode me ajudar?"],
+         "responses": ["Eu sou o Allyx, como posso te ajudar?", "Ola, meu nome e Allyx, o que voce deseja?", "Digite alguma mensagem para mim", "Oi, fale algo sobre a ASUS comigo"],
+          "context_set": ""
+        },
+        {"tag": "despedida",
+         "patterns": ["Até mais","tchau", "Abraços", "Adeus"],
+         "responses": ["Ate mais, obrigado pela visita!", "Tenha um otimo dia!", "Adeus."]
+        },
+        {"tag": "agradecimento",
+         "patterns": ["Obrigado", "Obrigado pela ajuda", "Muito obrigado","Voce me ajudou"],
+         "responses": ["De nada!", "Fico feliz em ajudar!", "Disponha"]
+        },
+        {"tag": "identificacao",
+         "patterns": ["Quem é você?", "Como voce está?", "O que é Allyx?"],
+         "responses": ["Meu nome e Allyx, estou aqui para te ajudar em duvidas referentes a ASUS", "Sou o Allyx, seu ChatBot para tudo ASUS", "Eu sou o mais novo ChatBot da Asus, o Allyx"]
+        },
+        {"tag": "asus",
+         "patterns": ["O que é a asus?", "O que é a empresa?"],
+         "responses": ["A ASUS e uma empresa multinacional de tecnologia sediada em Taiwan. Fundada em 1989, a ASUS e reconhecida mundialmente como uma das principais fabricantes de hardware e eletronicos, especializada principalmente em produtos de informatica."]
+        },
+        {"tag": "suporte",
+         "patterns": ["Preciso de suporte técnico", "Como posso contactar o suporte?", "Preciso de ajuda"],
+         "responses": ["Para entrar em contato com o suporte da ASUS, basta acessar esse link: https://www.asus.com/br/support/"]
+        },
+        {"tag": "produtos",
+         "patterns": ["O que voces comercializam?", "O que a asus vende?", "O que se fabrica?", "Quais peças voces produzem?"],
+         "responses": ["Alem de produzir componentes para outras empresas como Sony, Apple, Alienware, Falcon Northwest, HP e Compaq, tambem produz placas-mae, placas de video, discos opticos, computadores portateis e celulares"]
+        },
+        {"tag": "celulares",
+         "patterns": ["A asus faz celulares?", "Quais celulares a asus tem?", "Quais são as linhas de celular", "Estou procurando um celular", "Quero comprar um celular"],
+         "responses": ["Trabalhamos com a linha Zenfone de celulares e possuimos uma linha alternativa focada em jogos, a ROG", "Para ver a linha de telefones completa, acesse: https://www.asus.com/br/mobile-handhelds/phones/all-series/"]
+        },
+        {"tag": "notebooks",
+         "patterns": ["A asus faz notebooks?", "Quais notebooks a asus tem?", "Quais são as linhas de notebook", "Estou procurando um notebook", "Quero comprar um notebook"],
+         "responses": ["A ASUS possui várias linhas de notebooks, cada uma com suas características e finalidades distintas, como a ZenBook, VivoBook, ROG, TUF Gaming e StudioBook", "Veja todas as linhas de notebooks em: https://www.asus.com/br/laptops/for-home/all-series/"]
+        },
+        {"tag": "ROG",
+         "patterns": ["ROG", "Repuplic of Gamers", "Quero um celular ROG", "Quero um notebook ROG", "O que e a linha ROG?" ],
+         "responses": ["A linha ROG (Republic of Gamers) e uma marca de produtos da ASUS voltada para jogadores e entusiastas de jogos. Saiba mais em: https://rog.asus.com/br/","Trata-se da linha da ASUS focada em jogos, produzindo celulares, notebooks, perifericos e pecas de computador. Saiba mais em: https://rog.asus.com/br/"]
+        },
+        {"tag": "historia",
+         "patterns": ["Conte a história da asus.", "Como a asus surgiu?", "Qual a história da empresa?"],
+         "responses": ["A Asus foi fundada em Taipei em 1989, por T.H. Tung, Ted Hsu, Wayne Hsieh e M.T. Liao, todos os quatro tendo trabalhado anteriormente como engenheiros de hardware."]
+        },
+        {"tag": "erro",
+         "patterns": ["Não resolveu", "Não me ajudou", "Não entendi", "Errado"],
+         "responses": ["Perdao pelo ocorrido, repita a pergunta ou consulte o nosso site de suporte: https://www.asus.com/br/support/"]
+        }
+   ]
+  }
